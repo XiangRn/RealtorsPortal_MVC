@@ -1,0 +1,85 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.PrivateSeller>
+
+@{
+    ViewBag.Title = "Selleracount";
+    Layout = "~/Views/MainLayout/_MainLayoutAdmin.cshtml";
+}
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.SellFullname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SellGender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SellDob)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SellAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SellPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SellEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SellActive)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.SellFullname)
+            </td>
+            @if (item.SellGender == true)
+            {
+                <td>
+                    Male
+                </td>
+            }
+            else
+            {
+                <td>FeMale</td>
+            }
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.SellDob)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SellEmail)
+            </td>
+
+
+            @if (item.SellActive == false)
+            {
+                <td>
+                    @Html.ActionLink("Deactive", "SellerActice", new { id = item.SeLLId })
+                </td>
+            }
+            else
+            {
+                <td>@Html.ActionLink("Active", "SellerActice", new { id = item.SeLLId })</td>
+
+            }
+
+            <td>
+            </td>
+        </tr>
+    }
+
+</table>

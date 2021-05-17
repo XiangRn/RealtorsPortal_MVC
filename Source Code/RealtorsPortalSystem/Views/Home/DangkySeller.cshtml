@@ -1,0 +1,33 @@
+﻿@model RealtorsPortalSystem.Models.PrivateSeller
+@{
+    ViewBag.Title = "DangkySeller";
+}
+
+<h2>Create new Private Seller</h2>
+
+@using (Html.BeginForm("DangkySeller", "Home", FormMethod.Post))
+{
+    @Html.ValidationSummary(true)
+    <div>
+        <div>
+            @Html.LabelFor(m => m.SeLLAcount)
+            @Html.EditorFor(m => m.SeLLAcount)
+            @Html.ValidationMessageFor(m => m.SeLLAcount)
+        </div>
+
+        <div>
+            @Html.LabelFor(m => m.SellPassword)
+            @Html.EditorFor(m => m.SellPassword)
+            @Html.ValidationMessageFor(m => m.SellPassword)
+        </div>
+
+        <br />
+        <div>
+            <input type="submit" value="Create seller" class="btn-warning"/>
+        </div>
+
+        <div>
+            <h2 style="color:red">@ViewBag.msg</h2>
+        </div>
+    </div>
+}

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.LastedNew>
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/MainLayout/_MainLayout.cshtml";
+}
+
+
+@{Html.RenderPartial("~/Views/Advertisements/_PartialNews.cshtml");}
+@{Html.RenderPartial("~/Views/Home/_PartialAgent.cshtml");}
+
+<script src="~/js/toasttr.min.js"></script>
+<link href="~/css/toastr.min.css" rel="stylesheet" />
+<style>
+    .toast {
+        font-size: 15px;
+    }
+</style>
+@if (TempData["0"] != null)
+{
+    <script type="text/javascript">
+
+        toastr.warning("( X ) To the personal section for more details");
+            toastr.warning("@for (int i = 1; i <100; i++) {
+
+        @TempData[i.ToString()];
+            }", "@TempData["0"]", {timeOut: 20000});
+
+
+
+    </script>
+    <script type="text/javascript">
+
+
+
+    </script>
+}

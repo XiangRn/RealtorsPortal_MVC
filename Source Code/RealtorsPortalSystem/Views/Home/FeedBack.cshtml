@@ -1,0 +1,93 @@
+﻿@model RealtorsPortalSystem.Models.Feedback
+@{
+    ViewBag.Title = "Feedback";
+    Layout = "~/Views/MainLayout/_MainLayout.cshtml";
+}
+}
+
+
+<link href="~/css/formSignInSignUp/main.css" rel="stylesheet" />
+@using (Html.BeginForm("Feedback", "Home", FormMethod.Post))
+{
+    @Html.ValidationSummary(true)
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+        <h2 style="color:red">@ViewBag.Msg</h2>
+    </div>
+    <div class="wrap-login100">
+
+        <div class="contact100-form validate-form">
+
+            <span class="login100-form-title p-b-34 p-t-27">
+                Feedback
+            </span>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Choose Type</span>
+
+                @Html.DropDownListFor(m => m.ModeId, (IEnumerable<SelectListItem>)ViewBag.clist, htmlAttributes: new { @class = "input100" })
+
+            </div>
+            @if (Session["seller"] != null)
+            {
+
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.SeLLId, "SeLLId", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("SeLLId", null, htmlAttributes: new { @class = "input100" })
+                        @Html.ValidationMessageFor(model => model.SeLLId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                @*<div class="wrap-input100 rs1-wrap-input100 validate-input">
+                        <span class="label-input100">Seller</span>
+                        @Html.ValidationMessageFor(model => model.SeLLId, "", new { @class = "text-danger" })
+                        @Html.EditorFor(model => model.SeLLId, new { htmlAttributes = new { @class = "input100" } })
+                        <span class="focus-input100"></span>
+                    </div>*@
+            }
+            else if (Session["agent"] != null)
+            {
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.AgentId, "AgentId", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("AgentId", null, htmlAttributes: new { @class = "input100" })
+                        @Html.ValidationMessageFor(model => model.AgentId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                @*<div class="wrap-input100 rs1-wrap-input100 validate-input">
+                        <span class="label-input100">Agent</span>
+                        @Html.ValidationMessageFor(model => model.AgentId, "", new { @class = "text-danger" })
+                        @Html.EditorFor(model => model.AgentId, new { htmlAttributes = new { @class = "input100" } })
+                        <span class="focus-input100"></span>
+                    </div>*@
+
+            }
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Content</span>
+                @Html.ValidationMessageFor(model => model.FeedbackContent, "", new { @class = "text-danger" })
+
+                @Html.TextAreaFor(m => m.FeedbackContent, new { htmlAttributes = new { @class = "input100" } })
+
+
+            </div>
+
+
+            <div class="container-login100-form-btn">
+                <button class="login100-form-btn">
+                    Send
+                </button>
+            </div>
+
+
+        </div>
+
+    </div>
+}

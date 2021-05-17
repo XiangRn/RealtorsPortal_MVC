@@ -1,0 +1,41 @@
+﻿@model RealtorsPortalSystem.Models.District
+
+@{
+    ViewBag.Title = "Delete";
+     Layout = "~/Views/MainLayout/_MainLayoutAdmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>District</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.City.CityName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City.CityName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DistrictName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DistrictName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <button type="submit" style="background-color:hotpink">Delete</button> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

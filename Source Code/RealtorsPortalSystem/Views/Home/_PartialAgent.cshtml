@@ -1,0 +1,124 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.LastedNew>
+
+<section class="ftco-section ftco-agent ftco-no-pt">
+    <div class="container">
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-12 heading-section text-center ftco-animate">
+                <span class="subheading">Agents</span>
+                <h2 class="mb-4">Our Agents</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="myCarousel1" class="carousel slide" data-ride="carousel" data-interval="0">
+                <ol class="carousel-indicators">
+                    @if (Model.Where(m => m.Advertisement.SeLLId==null).Count() % 3 == 0)
+                    {
+                        for (int j = 0; j < Model.Where(m => m.Advertisement.AgentId!=null).Count() / 3; j++)
+                        {
+                            <li data-target="#myCarousel1" data-slide-to="@j" class="@if(j==0){<text>active</text>}"></li>
+
+                        }
+
+                    }
+                    else
+                    {
+                        for (int j = 0; j <= Model.Where(m => m.Advertisement.AgentId!=null).Count() / 3; j++)
+                        {
+                            <li data-target="#myCarousel1" data-slide-to="@j" class="@if(j==0){<text>active</text>}"></li>
+
+                        }
+                    }
+
+
+
+                </ol>
+
+
+                <div class="carousel-inner">
+                    @if (Model.Where(m => m.Advertisement.AgentId!=null).Count() % 3 == 0)
+                    {
+                        for (int j = 0; j < Model.Where(m => m.Advertisement.AgentId!=null).Count() / 3; j++)
+                        {
+
+
+                            <div class="item carousel-item @if(j==0){<text>active</text>} ">
+                                <div class="row">
+
+                                    @foreach (var item in Model.Where(m => m.Advertisement.AgentId!=null).Skip(j * 3).Take(3))
+                                    {
+
+                                        <div class="col-md-4 ftco-animate">
+                                            <div class="agent">
+                                                <div class="img">
+                                                    <img src="@item.Advertisement.Agent.AgentAvatar" class="img-fluid" alt="Colorlib Template">
+                                                </div>
+                                                <div class="desc">
+                                                    <h3><a href="properties.html">@item.Advertisement.Agent.AgentName</a></h3>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    }
+
+
+
+                                </div>
+                            </div>
+
+
+                        }
+
+                    }
+                    else
+                    {
+                        for (int j = 0; j <= Model.Where(m => m.Advertisement.AgentId!=null).Count() / 3; j++)
+                        {
+
+
+                            <div class="item carousel-item @if(j==0){<text>active</text>} ">
+                                <div class="row">
+
+                                    @foreach (var item in Model.Where(m => m.Advertisement.AgentId!=null).Skip(j * 3).Take(3))
+                                    {
+
+                                        <div class="col-md-4 ftco-animate">
+                                            <div class="agent">
+                                                <div class="img">
+                                                    <img src="@item.Advertisement.Agent.AgentAvatar" class="img-fluid" alt="Colorlib Template">
+                                                </div>
+                                                <div class="desc">
+                                                    <h3><a href="properties.html">@item.Advertisement.Agent.AgentName</a></h3>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    }
+
+
+
+                                </div>
+                            </div>
+
+
+                        }
+
+                    }
+
+
+
+
+
+                    Carousel controls
+
+
+                    <a class="left carousel-control" data-slide="prev" href="#myCarousel1"><span class="icon-prev"></span></a>
+                    <a class="right carousel-control" data-slide="next" href="#myCarousel1"><span class="icon-next"></span></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,86 @@
+﻿@model RealtorsPortalSystem.Models.PrivateSeller
+
+@{
+    ViewBag.Title = "Register1";
+   
+}
+<link href="~/css/formSignInSignUp/main.css" rel="stylesheet" />
+
+
+@using (Html.BeginForm("Register1", "Home", FormMethod.Post))
+{
+    @Html.ValidationSummary(true)
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+        <h2 style="color:red">@ViewBag.Msg</h2>
+    </div>
+    <div class="wrap-login100">
+
+        <div class="contact100-form validate-form">
+
+            <span class="login100-form-title p-b-34 p-t-27">
+                Sign Up For Seller
+            </span>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Seller Account<span style="color:red">*</span></span>
+                @Html.ValidationMessageFor(model => model.SeLLAcount, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.SeLLAcount, new { htmlAttributes = new { @class = "input100" } })
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Password<span style="color:red">*</span></span>
+                @Html.ValidationMessageFor(model => model.SellPassword, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.SellPassword, new { htmlAttributes = new { @class = "input100", type = "password" } })
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Fullname<span style="color:red">*</span></span>
+                @Html.ValidationMessageFor(model => model.SellFullname, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.SellFullname, new { htmlAttributes = new { @class = "input100" } })
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Gender<span style="color:red">*</span></span>
+                @Html.ValidationMessageFor(model => model.SellGender, "", new { @class = "text-danger" })
+                @Html.Label("Male") @Html.RadioButtonFor(model => model.SellGender, "False", false)
+                @Html.Label("Female")  @Html.RadioButtonFor(model => model.SellGender, "True", false)
+
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Date Of Birth<span style="color:red">*</span></span>
+                @Html.ValidationMessageFor(model => model.SellDob, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.SellDob, new { htmlAttributes = new { @class = "input100", type = "date" } })
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Address<span style="color:red">*</span></span>
+                @Html.ValidationMessageFor(model => model.SellAddress, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.SellAddress, new { htmlAttributes = new { @class = "input100" } })
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Phone<span style="color:red">*</span></span>
+                @Html.ValidationMessageFor(model => model.SellPhone, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.SellPhone, new { htmlAttributes = new { @class = "input100" } })
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Email<span style="color:red">*</span></span>
+                @Html.ValidationMessageFor(model => model.SellEmail, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.SellEmail, new { htmlAttributes = new { @class = "input100" } })
+                <span class="focus-input100"></span>
+            </div>
+            <div class="container-login100-form-btn">
+                <button class="login100-form-btn">
+                    Sign Up
+                </button>
+            </div>
+
+
+        </div>
+
+    </div>
+}

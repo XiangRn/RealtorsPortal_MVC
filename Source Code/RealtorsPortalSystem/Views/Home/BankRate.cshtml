@@ -1,0 +1,113 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.Bank>
+@{
+    ViewBag.Title = "BankRate";
+    Layout = "~/Views/MainLayout/_MainLayout.cshtml";
+}
+
+<link href="~/css/formSignInSignUp/main.css" rel="stylesheet" />
+@using (Ajax.BeginForm("BankRate", "Home", new AjaxOptions { InsertionMode = InsertionMode.Replace }))
+{
+    @Html.ValidationSummary(true)
+
+
+
+    <div class="wrap-login100">
+
+
+        <div class="contact100-form validate-form">
+            <span class="login100-form-title p-b-34 p-t-27">
+                Find The Rate Bank
+            </span>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+
+
+                @Html.DropDownList("m", (IEnumerable<SelectListItem>)ViewBag.olist, "Choose Bank", new { @class = "input100" })
+
+            </div>
+
+            <div class="container-login100-form-btn">
+                <button class="login100-form-btn">
+                    Search
+                </button>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+}
+@foreach (var item in Model)
+{
+
+
+    <div class="wrap-login100">
+
+
+        <div class="contact100-form validate-form">
+
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Result</span>
+                <h2 style="color:red">@item.BankRate</h2>
+                <span class="focus-input100"></span>
+
+            </div>
+
+
+            <br />
+
+
+        </div>
+    </div>
+
+
+}
+@using (Html.BeginForm("RateCalculation", "Home", FormMethod.Post))
+{
+    @Html.ValidationSummary(true)
+
+
+    <div class="wrap-login100">
+
+
+        <div class="contact100-form validate-form">
+            <span class="login100-form-title p-b-34 p-t-27">
+                Simple Mortgate Calculation
+            </span>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Principal</span>
+                <input class="input100" type="text" name="principal">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Rate(%)/year</span>
+                <input class="input100" type="text" name="rate">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Time/year</span>
+                <input class="input100" type="text" name="amountime">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="container-login100-form-btn">
+                <button class="login100-form-btn">
+                    Result
+                </button>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Result</span>
+                <h2 style="color:red">@Session["m"]</h2>
+                <span class="focus-input100"></span>
+            </div>
+        </div>
+    </div>
+}

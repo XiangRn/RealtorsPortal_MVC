@@ -1,0 +1,36 @@
+﻿@model RealtorsPortalSystem.Models.SellerVsAgent
+@{
+    ViewBag.Title = "LoginAgentVsSeller";
+}
+
+<h2>LoginAgentVsSeller</h2>
+
+<h2>Chọn 1 trong 2 Đối tượng để Login</h2>
+
+
+<div id="developerDiv" style="display: none">
+    @Html.Partial("LoginSeller", Model.PrivateSeller)
+</div>
+<div id="testerDiv" style="display: none">
+    @Html.Partial("LoginAgent", Model.Agent)
+</div>
+<div>
+    Seller :@Html.RadioButton("team", "developer", new
+    {
+        onclick = "showResult(this)"@*,@checked = true*@})
+    Agent :@Html.RadioButton("team", "tester", new { onclick = "showResult(this)" })
+</div>
+<div id="partialContainer"></div>
+
+<script type="text/javascript">
+    function showResult(radio) {
+
+        var selected = radio.value;
+        if (selected == "developer")
+            document.getElementById("partialContainer").innerHTML
+                = document.getElementById("developerDiv").innerHTML;
+        else if (selected == "tester")
+            document.getElementById("partialContainer").innerHTML
+                = document.getElementById("testerDiv").innerHTML;
+    }
+</script>

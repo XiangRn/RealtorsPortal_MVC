@@ -1,0 +1,89 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.Agent>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/MainLayout/_MainLayout_noSearch.cshtml";
+}
+
+<section class="ftco-section goto-here">
+
+    <div class="container" style="text-align:center">
+        <h2>Agent's Profile</h2>
+        <a href="@Url.Action("FeedbackHistory", "Home",null)">Feedback History</a>
+        @foreach (var item in Model)
+        {
+            <table class="table" width="50%">
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.AgentAcount)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.AgentAcount)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.AgentName)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.AgentName)
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.AgentAddress)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.AgentAddress)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.AgentPhone)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.AgentPhone)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.AgentEmail)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.AgentEmail)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.TaxCode)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.TaxCode)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.AgentAvatar)
+                    </th>
+                    <td style="text-align:left">
+                        <img src=@item.AgentAvatar width="100" />
+                    </td>
+                </tr>
+
+            </table>
+            <div>
+                @Html.ActionLink("Edit", "Edit", new { id = item.AgentId }, new { @style = "font-size:larger" })
+            </div>
+
+        }
+    </div>
+
+
+</section>

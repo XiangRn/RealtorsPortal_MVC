@@ -1,0 +1,233 @@
+﻿@model PagedList<RealtorsPortalSystem.Models.Advertisement>
+@using PagedList.Mvc
+@using PagedList
+
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/MainLayout/_MainLayout_noSearch.cshtml";
+    }
+
+    <style>
+        .pagination {
+            text-align: center;
+            margin: auto 800px auto 800px;
+        }
+
+            .pagination ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden; /*background-color: #333;*/
+            }
+
+            .pagination li {
+                float: left;
+                border-right: 1px solid #bbb;
+            }
+
+                .pagination li:last-child {
+                    border-right: none;
+                }
+
+                .pagination li a {
+                    display: block;
+                    color: Black;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+
+                    .pagination li a:hover:not(.active) {
+                        background-color: hotpink;
+                    }
+
+            .pagination .active {
+                background-color: hotpink;
+            }
+    </style>
+
+    <section class="ftco-section goto-here">
+
+        <div>
+
+
+            @using (Ajax.BeginForm("Index", "Advertisements1", new AjaxOptions { InsertionMode = InsertionMode.Replace }))
+            {
+                <input type="text" name="cusname" placeholder="Enter Keyword" />
+                <input type="submit" value="Filter" class="btn-default" style="background-color:hotpink" />
+            }
+        </div>
+        <h2>List of Advertisements</h2>
+        <table class="table">
+            <tr>
+                <th>
+                    <label>AdvId</label>
+                </th>
+
+                @*<th>
+                        @Html.DisplayNameFor(model => model.Category.CateName)
+                    </th>*@
+                @*<th>
+                        @Html.DisplayNameFor(model => model.Mode.ModeName)
+                    </th>*@
+                @*<th>
+                        @Html.DisplayNameFor(model => model.PrivateSeller.SeLLAcount)
+
+                    </th>*@
+                @*<th>
+                        @Html.DisplayNameFor(model => model.User.UserName)
+                    </th>*@
+                <th>
+                    <label>Header</label>
+                </th>
+                @*<th>
+                        @Html.DisplayNameFor(model => model.Content)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Price)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Address)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Street)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.District)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Ward)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CityProvince)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Area)
+                    </th>*@
+                <th>
+                    <label>AvatarAdvertisement</label>
+                </th>
+                <th>
+                    <label>DateUp</label>
+                </th>
+                <th>
+                    <label>ExpDate</label>
+                </th>
+                <th>
+                    <label>"ExpDate" Status</label>
+                </th>
+                <th>
+                    <label>"Approved" Status</label>
+                </th>
+                <th>
+                    <label>"PAY" Status</label>
+                </th>
+
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AdvId)
+                    </td>
+
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.Category.CateName)
+                        </td>*@
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.Mode.ModeName)
+                        </td>*@
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.PrivateSeller.SeLLAcount)
+
+                        </td>*@
+
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.User.UserName)
+                        </td>*@
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Header)
+                    </td>
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.Content)
+                        </td>*@
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>*@
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.Address)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Street)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.District)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Ward)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CityProvince)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Area)
+                        </td>*@
+                    <td>
+                        <img src=@item.Photothumbnail width="100" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateUp)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ExpDate)
+                    </td>
+                    <td>
+                        @if (item.ExpDate < DateTime.Now)
+                        {
+                            <h4>Time-Expired</h4>
+                        }
+                    </td>
+                    <td>
+                        @if (item.Approved == true)
+                        {
+                            <h4>Approved</h4>
+                        }
+                        else
+                        {
+                            <h4>Not yet</h4>
+                        }
+                    </td>
+                    <td>
+                        @if (item.Paid == true && item.ExpDate >= DateTime.Now && item.Approved == true)
+                        {
+                            <h4>Paid</h4>
+                            <h4> @Html.ActionLink("Additional Payment", "AdditionalPayment", new { id = item.AdvId })</h4>
+                        }
+                        else if (item.ExpDate < DateTime.Now && item.Approved == true)
+                        {
+                            <h4> @Html.ActionLink("AddPaymentNewPakage", "AddPaymentNewPakage", new { id = item.AdvId })</h4>
+                        }
+                        else if (item.Approved == true && item.Paid == false && item.DateUp == null)
+                        {
+                            <h4>@Html.ActionLink("Pay now", "PayNow", new { id = item.AdvId })</h4>
+                        }
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.AdvId }) |
+                        @Html.ActionLink("Add more/delete image", "EditPhotoDetail", new { id = item.AdvId }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.AdvId }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.AdvId }, new { onclick = "return confirm ('Are you sure want to delete')" })
+
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </section>
+
+    <div>
+        @Html.PagedListPager(Model, pageNum => Url.Action("GetAdvSaleSeller", new { page = pageNum }))
+    </div>

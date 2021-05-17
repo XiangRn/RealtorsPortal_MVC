@@ -1,0 +1,322 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RealtorsPortal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="~/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="~/css/aos.css">
+
+    <link rel="stylesheet" href="~/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="~/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="~/css/flaticon.css">
+    <link rel="stylesheet" href="~/css/icomoon.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <link rel="stylesheet" href="~/css/menudropdown.css">
+    <link rel="stylesheet" href="~/css/moreoption.css">
+    <link rel="stylesheet" href="~/css/carousel.css">
+    <link rel="stylesheet" href="~/css/select2.min.css">
+    <link rel="stylesheet" href="~/css/selectoptionwidth.css">
+    <style>
+        .inlineinput div {
+            display: inline;
+        }
+
+        #searchclear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}
+     
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="~/Home/Index">RealtorsPortal</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="~/Admins/Index" class="nav-link">Home</a></li>
+
+                    <li class="nav-item" style="float:right"><a href="~/Admins/Agentacount" class="nav-link">Agent</a></li>
+                    <li class="nav-item" style="float:right"><a href="~/Admins/Selleracount" class="nav-link">Private Seller</a></li>
+                    <li class="nav-item" style="float:right"><a href="~/Advertisements2/Index" class="nav-link">Advertisements</a></li>
+                    <li class="nav-item" style="float:right"><a href="~/Admins/CityList" class="nav-link">City</a></li>
+                    <li class="nav-item" style="float:right"><a href="~/Districts/Index" class="nav-link">District</a></li>
+                    <li class="nav-item" style="float:right"><a href="~/Wards/Index" class="nav-link">Ward</a></li>
+                    <li class="nav-item" style="float:right"><a href="~/Streets/Index" class="nav-link">Street</a></li>
+                    <li class="nav-item" style="float:right"><a href="~/Admins/PhotoDetails" class="nav-link">PhotoDetails(for each Advertisement)</a></li>
+                    <li class="nav-item" style="float:right"><a href="~/Admins/Report" class="nav-link">Report</a></li>
+                    <li class="nav-item" style="float:right"><a href="~/Admins/AdminDisplayFeedback" class="nav-link">Feedback</a></li>
+
+                </ul>
+
+                <ul class="navbar-nav ml-auto" style="float:right">
+                    @if (Session["aname"] != null)
+                    {
+                    <li class="nav-item"><a href="@Url.Action("DisplayMyAccount", "Admins", null)" class="nav-link">Change Password</a></li>
+                        <li class="nav-item"><a href="@Url.Action("Logout", "Admins", null)" class="nav-link">Logout</a></li>
+                    }
+                    
+                  
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    
+
+    <!-- END nav -->
+
+    <div class="hero-wrap ftco-degree-bg" style="background-image: url('@Url.Content("~/images/bg_1.jpg")');" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text justify-content-center align-items-center">
+                <div class="col-lg-12 col-md-6 ftco-animate d-flex align-items-end">
+                    <div class="text text-center">
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+
+    <br /><br /><br />
+
+
+
+
+    @RenderBody()
+
+    
+
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.easing.1.3.js"></script>
+    <script src="~/js/jquery.waypoints.min.js"></script>
+    <script src="~/js/jquery.stellar.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/aos.js"></script>
+    <script src="~/js/jquery.animateNumber.min.js"></script>
+    <script src="~/js/bootstrap-datepicker.js"></script>
+    <script src="~/js/jquery.timepicker.min.js"></script>
+    <script src="~/js/scrollax.min.js"></script>
+    @*<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>*@
+    <script src="~/js/google-map.js"></script>
+    <script src="~/js/main.js"></script>
+
+    <script src="~/js/select2.min.js"></script>
+    <script src="~/js/selectoption2.js"></script>
+
+    <script>
+
+        //disable button search when empty
+        //$(document).ready(function () {
+
+        //    $('.searchanyButton').attr('disabled', true);
+        //    $('#inputanysearch').keyup(function () {
+        //        if ($(this).val().length != 0)
+        //            $('.searchanyButton').attr('disabled', false);
+        //        else
+        //            $('.searchanyButton').attr('disabled', true);
+        //    })
+
+
+
+        //});
+
+        //$(document).ready(function () {
+        //    $('.searchadv').attr('disabled', true);
+        //    $('#mode').change(function () {
+        //        if ($(this).val().length != 0)
+        //            $('.searchadv').attr('disabled', false);
+        //        else
+        //            $('.searchadv').attr('disabled', true);
+        //    })
+
+
+        //});
+        //       $(document).ready(function () {
+        //    $('.searchadv').attr('disabled', true);
+        //    $('#dropdownCity').change(function () {
+        //        if ($(this).val().length != 0)
+        //            $('.searchadv').attr('disabled', false);
+        //        else
+        //            $('.searchadv').attr('disabled', true);
+        //    })
+
+
+        //});
+
+
+        window.onload = function () {
+            var selItem = sessionStorage.getItem("SelItem");
+            $('#inputanysearch').val(selItem);
+        }
+        $('#inputanysearch').change(function () {
+            var selVal = $(this).val();
+            sessionStorage.setItem("SelItem", selVal);
+        });
+
+        //      window.onload = function() {
+
+
+        //    var selItem2 = sessionStorage.getItem("SelItem2");
+        //$('#mode').val(selItem2);
+        //}
+        //$('#mode').change(function() {
+        //    var selVal2 = $(this).val();
+        //    sessionStorage.setItem("SelItem2", selVal2);
+        //});
+
+
+
+        $(function () {
+
+             $.ajax({
+                type: "GET",
+                url: "/Home/GetModeId",
+                datatype: "Json",
+                success: function (data) {
+                    $('#mode1').empty();
+                    $("#mode1").append("<option value='null'>--Select Mode--</option>");
+                    $.each(data, function (index, value) {
+
+
+                        $('#mode1').append('<option value="' + value.ModeId + '">' + value.ModeName + '</option>');
+                    });
+                }
+            });
+            $.ajax({
+                type: "GET",
+                url: "/Home/GetCity",
+                datatype: "Json",
+                success: function (data) {
+                    $('#dropdownCity').empty();
+                    $("#dropdownCity").append("<option value='null'>--Select City--</option>");
+                    $.each(data, function (index, value) {
+
+
+                        $('#dropdownCity').append('<option value="' + value.CityId + '">' + value.CityName + '</option>');
+                    });
+                }
+            });
+
+            $('#dropdownCity').change(function () {
+
+                $('#dropdownDistrict').empty();
+                $('#dropdownWard').empty();
+                $('#dropdownStreet').empty();
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/GetDistrict",
+                    datatype: "Json",
+                    data: { cityId: $('#dropdownCity').val() },
+                    success: function (data) {
+
+                        $("#dropdownDistrict").append("<option value='null'>--Select District--</option>");
+                        $("#dropdownWard").append("<option value='null'>--Select Ward--</option>");
+                        $("#dropdownStreet").append("<option value='null'>--Select Street--</option>");
+                        $.each(data, function (index, value) {
+
+
+                            $('#dropdownDistrict').append('<option value="' + value.DistrictId + '">' + value.DistrictName + '</option>');
+                        });
+                    }
+                });
+            });
+
+
+            $('#dropdownDistrict').change(function () {
+
+                $('#dropdownWard').empty();
+                $('#dropdownStreet').empty();
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/GetWard",
+                    datatype: "Json",
+                    data: { districtId: $('#dropdownDistrict').val() },
+                    success: function (data) {
+
+                        $("#dropdownWard").append("<option value='null'>--Select Ward--</option>");
+                        $("#dropdownStreet").append("<option value='null'>--Select Street--</option>");
+                        $.each(data, function (index, value) {
+
+                            $('#dropdownWard').append('<option value="' + value.WardId + '">' + value.WardName + '</option>');
+                        });
+                    }
+                });
+            });
+
+            $('#dropdownWard').change(function () {
+
+                $('#dropdownStreet').empty();
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/GetStreet",
+                    datatype: "Json",
+                    data: { wardId: $('#dropdownWard').val() },
+                    success: function (data) {
+
+                        $("#dropdownStreet").append("<option value='null'>--Select Street--</option>");
+                        $.each(data, function (index, value) {
+
+                            $('#dropdownStreet').append('<option value="' + value.StreetId + '">' + value.StreetName + '</option>');
+                        });
+                    }
+                });
+            });
+
+
+
+        });
+
+
+    </script>
+
+
+</body>
+</html>

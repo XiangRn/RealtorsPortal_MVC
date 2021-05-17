@@ -1,0 +1,27 @@
+﻿@model RealtorsPortalSystem.Models.City
+
+@{
+    ViewBag.Title = "DetailsCity";
+    Layout = "~/Views/MainLayout/_MainLayoutAdmin.cshtml";
+}
+
+<h2>DetailsCity</h2>
+
+<div>
+    <h4>City</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CityName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CityName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    
+    @Html.ActionLink("Back to List", "CityList","Admins")
+</p>

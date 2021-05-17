@@ -1,0 +1,6 @@
+﻿@model RealtorsPortalSystem.Models.Advertisement
+@using (Html.BeginForm())
+{
+    @Html.DropDownListFor(m=>m.District, (IEnumerable<SelectListItem>)ViewBag.clist, "Please select a product")
+}
+

@@ -1,0 +1,33 @@
+﻿@model RealtorsPortalSystem.Models.PrivateSeller
+
+@{
+    ViewBag.Title = "SellerActice";
+    Layout = "~/Views/MainLayout/_MainLayoutAdmin.cshtml";
+
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Set Active/ Deactive for Account</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.SeLLId)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SellActive, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.RadioButtonFor(x => x.SellActive, true, new { @checked = true }) Active
+                @Html.RadioButtonFor(x => x.SellActive, false) Deactive
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}

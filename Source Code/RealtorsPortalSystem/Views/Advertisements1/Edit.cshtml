@@ -1,0 +1,331 @@
+﻿@model RealtorsPortalSystem.Models.Advertisement
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/MainLayout/_MainLayout_noSearch.cshtml";
+}
+
+
+    <section class="ftco-section goto-here">
+        <div class="container">
+            @using (Html.BeginForm("Edit", "Advertisements1", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>Edit Advertisement</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.AdvId)
+
+                @*<div class="form-group">
+            @Html.LabelFor(model => model.ModeId, "ModeId", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ModeId", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ModeId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CateId, "CateId", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("CateId", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.CateId, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Mode:</label>
+                    <div class="col-md-10">
+                        <select name="mode" id="mode" class = "form-control">
+                            <option value="null" selected>---Select Mode---</option>
+                            <option value="1">Sale</option>
+                            <option value="2">Buy</option>
+                            <option value="3">Rent</option>
+                            <option value="4">Lease</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Category:</label>
+                    <div class="col-md-10">
+                        <select name="cate" id="cate" class = "form-control">
+                            <option value="null" selected>---Select Category---</option>
+                            <option value="1">House</option>
+                            <option value="2">Ofice Space</option>
+                            <option value="3">Shops</option>
+                            <option value="4">Apartment</option>
+                            <option value="5">Villa</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                @if (Session["seller"] != null)
+                {
+
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.SeLLId, "SeLLId", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("SeLLId", null, htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.SeLLId, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.SellAcount, "SeLLAcount", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("SellAcount", null, htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.SellAcount, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                }
+                else if (Session["agent"] != null)
+                {
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.AgentId, "AgentId", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("AgentId", null, htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.AgentId, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.AgentAcount, "AgentAcount", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.DropDownList("AgentAcount", null, htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.AgentAcount, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                }
+
+
+
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Header, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Header, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Header, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Content, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Content, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CityProvince, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("dropdownCity1", new SelectList(string.Empty, "Text", "Text"), "--Select City--",
+                new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.CityProvince, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.District, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("dropdownDistrict1", new SelectList(string.Empty, "Text", "Text"), "--Select District--",
+                       new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.District, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Ward, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("dropdownWard1", new SelectList(string.Empty, "Text", "Text"), "--Select Ward--", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Ward, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Street, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("dropdownStreet1", new SelectList(string.Empty, "Text", "Text"), "--Select Street--", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Street, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Area, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Area, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Area, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Bedroom, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Bedroom, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Bedroom, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Photothumbnail, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <input type="file" name="file" id="file" />
+                    </div>
+                </div>
+
+
+                @*<div class="form-group">
+            <label class="control-label col-md-2">Chon goi mua thêm:</label>
+            <div class="col-md-10">
+                <select name="expday" id="expday">
+                    <option value="0day" selected>No more</option>
+                    <option value="30days">30 days (2$)</option>
+                    <option value="90days">3 months (5$)</option>
+                    <option value="180days">6 monts (8$)</option>
+                </select>
+            </div>
+
+        </div>*@
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <button type="submit" style="background-color:hotpink">Save</button>
+                    </div>
+                </div>
+
+
+                <div>
+                    @Html.ActionLink("Back to List", "Index")
+                </div>
+            </div>
+            }
+        </div>
+    </section>
+        
+
+          
+
+
+            <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+            <script src="~/Scripts/jquery.validate.min.js"></script>
+            <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+            <script>
+
+
+
+
+                $(function () {
+
+
+                    $.ajax({
+                        type: "GET",
+                        url: "/Home/GetCity",
+                        datatype: "Json",
+                        success: function (data) {
+                            $('#dropdownCity1').empty();
+                            $("#dropdownCity1").append("<option value='null'>--Select City--</option>");
+                            $.each(data, function (index, value) {
+
+
+                                $('#dropdownCity1').append('<option value="' + value.CityId + '">' + value.CityName + '</option>');
+                            });
+                        }
+                    });
+
+                    $('#dropdownCity1').change(function () {
+
+                        $('#dropdownDistrict1').empty();
+                        $('#dropdownWard1').empty();
+                        $('#dropdownStreet1').empty();
+
+                        $.ajax({
+                            type: "POST",
+                            url: "/Home/GetDistrict",
+                            datatype: "Json",
+                            data: { cityId: $('#dropdownCity1').val() },
+                            success: function (data) {
+
+                                $("#dropdownDistrict1").append("<option value='null'>--Select District--</option>");
+                                $("#dropdownWard1").append("<option value='null'>--Select Ward--</option>");
+                                $("#dropdownStreet1").append("<option value='null'>--Select Street--</option>");
+                                $.each(data, function (index, value) {
+
+
+                                    $('#dropdownDistrict1').append('<option value="' + value.DistrictId + '">' + value.DistrictName + '</option>');
+                                });
+                            }
+                        });
+                    });
+
+
+                    $('#dropdownDistrict1').change(function () {
+
+                        $('#dropdownWard1').empty();
+                        $('#dropdownStreet1').empty();
+
+                        $.ajax({
+                            type: "POST",
+                            url: "/Home/GetWard",
+                            datatype: "Json",
+                            data: { districtId: $('#dropdownDistrict1').val() },
+                            success: function (data) {
+
+                                $("#dropdownWard1").append("<option value='null'>--Select Ward--</option>");
+                                $("#dropdownStreet1").append("<option value='null'>--Select Street--</option>");
+                                $.each(data, function (index, value) {
+
+                                    $('#dropdownWard1').append('<option value="' + value.WardId + '">' + value.WardName + '</option>');
+                                });
+                            }
+                        });
+                    });
+
+                    $('#dropdownWard1').change(function () {
+
+                        $('#dropdownStreet1').empty();
+
+                        $.ajax({
+                            type: "POST",
+                            url: "/Home/GetStreet",
+                            datatype: "Json",
+                            data: { wardId: $('#dropdownWard1').val() },
+                            success: function (data) {
+
+                                $("#dropdownStreet1").append("<option value='null'>--Select Street--</option>");
+                                $.each(data, function (index, value) {
+
+                                    $('#dropdownStreet1').append('<option value="' + value.StreetId + '">' + value.StreetName + '</option>');
+                                });
+                            }
+                        });
+                    });
+
+
+
+                });
+
+
+            </script>

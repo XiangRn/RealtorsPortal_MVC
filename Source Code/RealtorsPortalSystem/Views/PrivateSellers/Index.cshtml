@@ -1,0 +1,82 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.PrivateSeller>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/MainLayout/_MainLayout_noSearch.cshtml";
+}
+
+
+<section class="ftco-section goto-here">
+    
+    <div class="container" style="text-align:center">
+        <h2>User's Profile</h2>
+        <a href="@Url.Action("FeedbackHistory", "Home",null)">Feedback History</a>
+        @foreach (var item in Model)
+        {
+            <table class="table" width="50%">
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.SeLLAcount)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.SeLLAcount)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.SellFullname)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.SellFullname)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.SellGender)
+                    </th>
+                    <td style="text-align:left">
+                        @(item.SellGender == true ? "Male" : "Female")
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.SellAddress)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.SellAddress)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.SellPhone)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.SellPhone)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th style="text-align:right">
+                        @Html.DisplayNameFor(model => model.SellEmail)
+                    </th>
+                    <td style="text-align:left">
+                        @Html.DisplayFor(modelItem => item.SellEmail)
+                    </td>
+                </tr>
+
+            </table>
+            <div>
+                @Html.ActionLink("Edit", "Edit", new { id = item.SeLLId },new { @style = "font-size:larger" })
+            </div>
+
+        }
+    </div>
+   
+
+</section>
+    
+     

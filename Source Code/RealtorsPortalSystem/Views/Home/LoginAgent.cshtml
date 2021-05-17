@@ -1,0 +1,31 @@
+﻿@model RealtorsPortalSystem.Models.Agent
+@{
+    ViewBag.Title = "LoginAgent";
+}
+
+<h2>LoginAgent</h2>
+
+@using (Html.BeginForm("LoginAgent", "Home", FormMethod.Post))
+{
+    <div>
+        <div>
+            @Html.LabelFor(m => m.AgentAcount)
+            <input type="text" name="agentname" placeholder="Nhap agent name" />  @*ben controller la kieu string ko phai kieu doi tuong*@
+            @Html.ValidationMessageFor(m => m.AgentAcount)
+        </div>
+
+        <div>
+            @Html.LabelFor(m => m.AgentPassword)
+            <input type="password" name="agentpwd" placeholder="Nhap agent pass" />
+        </div>
+
+        <br />
+        <div>
+            <input type="submit" value="Sign in" class="btn-primary" />
+        </div>
+    </div>
+}
+<div>
+    <h3 style="color:red">@ViewBag.Msg</h3>
+    <h3 style="color:red">@ViewBag.Msg2 @ViewBag.Msg3 @ViewBag.Msg4</h3>
+</div>

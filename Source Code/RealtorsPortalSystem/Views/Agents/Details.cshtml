@@ -1,0 +1,75 @@
+﻿@model RealtorsPortalSystem.Models.Agent
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/MainLayout/_MainLayout_noSearch.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Agent</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AgentAcount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AgentAcount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AgentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AgentName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AgentPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AgentPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AgentAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AgentAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AgentPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AgentPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AgentEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AgentEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TaxCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TaxCode)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AgentId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

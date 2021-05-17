@@ -1,0 +1,120 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.UserAdvDetail>
+
+@{
+    ViewBag.Title = "AddAdvertisementHistory";
+}
+
+
+
+    <section class="ftco-section goto-here">
+        <h2>AddAdvertisementHistory</h2>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.AdvId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AdvTitle)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SeLLId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SeLLAccount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AgentId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AgentAccount)
+                </th>
+
+
+                <th>
+                    @Html.DisplayNameFor(model => model.DateUp)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ExpDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Onemonth)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Threemonths)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sixmonths)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SubTotal)
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AdvId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AdvTitle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SeLLId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SeLLAccount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AgentId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AgentAccount)
+                    </td>
+
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateUp)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ExpDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Onemonth)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Threemonths)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Sixmonths)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SubTotal)
+                    </td>
+
+                </tr>
+            }
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Total:</td>
+                <td>@Model.Sum(s => s.SubTotal)$</td>
+            </tr>
+        </table>
+    </section>
+    

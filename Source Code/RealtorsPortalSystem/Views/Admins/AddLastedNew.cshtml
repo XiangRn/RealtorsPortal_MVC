@@ -1,0 +1,40 @@
+﻿@model RealtorsPortalSystem.Models.LastedNew
+@{
+    ViewBag.Title = "AddLastedNew";
+     Layout = "~/Views/MainLayout/_MainLayoutAdmin.cshtml";
+}
+
+<link href="~/css/formSignInSignUp/main.css" rel="stylesheet" />
+@using (Html.BeginForm("AddLastedNew", "Admins", FormMethod.Post))
+{
+
+
+
+
+
+    <div class="wrap-login100">
+
+
+        <div class="contact100-form validate-form">
+            <span class="login100-form-title p-b-34 p-t-27">
+                Add a new Lasted News
+            </span>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+
+
+                @Html.DropDownListFor(m => m.AdvId, (IEnumerable<SelectListItem>)ViewBag.clist, "Choose Advertisement", new { @class = "input100" })
+
+            </div>
+
+            <div class="container-login100-form-btn">
+                <button class="login100-form-btn">
+                    Add
+                </button>
+            </div>
+
+
+
+        </div>
+    </div>
+}

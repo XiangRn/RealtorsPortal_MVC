@@ -1,0 +1,40 @@
+﻿@model RealtorsPortalSystem.Models.SellerVsAgent
+@{
+    ViewBag.Title = "AgentSeller";
+    Layout = "~/Views/MainLayout/_MainLayout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<div class="container" style="margin:5px 600px">
+
+    <h2>Choose one of two types of users</h2>
+
+
+    <div id="developerDiv" style="display: none">
+        @Html.Partial("Register", Model.Agent)
+    </div>
+    <div id="testerDiv" style="display: none">
+        @Html.Partial("Register1", Model.PrivateSeller)
+    </div>
+    <div>
+        Agent :@Html.RadioButton("team", "developer", new { onclick = "showResult(this)" })
+        Seller :@Html.RadioButton("team", "tester", new { onclick = "showResult(this)" })
+    </div>
+    <div id="partialContainer"></div>
+</div>
+
+
+<script type="text/javascript">
+    function showResult(radio) {
+
+        var selected = radio.value;
+        if (selected == "developer")
+            document.getElementById("partialContainer").innerHTML
+                = document.getElementById("developerDiv").innerHTML;
+        else if (selected == "tester")
+            document.getElementById("partialContainer").innerHTML
+                = document.getElementById("testerDiv").innerHTML;
+    }
+</script>

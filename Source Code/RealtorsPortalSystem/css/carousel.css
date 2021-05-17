@@ -1,0 +1,48 @@
+﻿.carousel .carousel-control {
+    height: 44px;
+    width: 40px;
+    background: #7ac400;
+    margin: auto 0;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+    .carousel .carousel-control:hover {
+        background: #78bf00;
+        opacity: 1;
+    }
+
+    .carousel .carousel-control i {
+        font-size: 36px;
+        position: absolute;
+        top: 50%;
+        display: inline-block;
+        margin: -19px 0 0 0;
+        z-index: 5;
+        left: 0;
+        right: 0;
+        color: #fff;
+        text-shadow: none;
+        font-weight: bold;
+    }
+
+
+.carousel .carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border-radius: 50%;
+    border: none;
+}
+
+.carousel-indicators li {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+    .carousel-indicators li.active {
+        background: rgba(0, 0, 0, 0.6);
+    }

@@ -1,0 +1,91 @@
+﻿@model RealtorsPortalSystem.Models.PrivateSeller
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/MainLayout/_MainLayout_noSearch.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PrivateSeller</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SeLLAcount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SeLLAcount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellFullname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellFullname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellGender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellGender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellDob)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellDob)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellActive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SeLLId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

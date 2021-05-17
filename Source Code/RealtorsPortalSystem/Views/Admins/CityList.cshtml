@@ -1,0 +1,35 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.City>
+
+@{
+    ViewBag.Title = "CityList";
+    Layout = "~/Views/MainLayout/_MainLayoutAdmin.cshtml";
+}
+
+<h2>CityList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateCity")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CityName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CityName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditCity", new { id=item.CityId }) |
+            @Html.ActionLink("Details", "DetailsCity", new { id=item.CityId }) |
+            @Html.ActionLink("Delete", "DeleteCity", new { id=item.CityId } ,
+           new { onclick = "return confirm('Are you sure you want to delete it?')" })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,18 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.PhotoDetail>
+@{
+    ViewBag.Title = "Detail";
+}
+
+
+    <div class="wrapper wrapper-content">
+
+
+        @foreach (var item in Model)
+        {
+
+            <img alt="image" class="img-responsive" src="~/images/@item.Image" style="height:400px;width:500px">
+           
+
+        }
+    </div>
+

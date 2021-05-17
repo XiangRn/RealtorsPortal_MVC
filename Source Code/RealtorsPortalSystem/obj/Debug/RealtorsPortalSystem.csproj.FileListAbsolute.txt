@@ -1,0 +1,453 @@
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll.config
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.pdb
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe.config
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.rsp
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe.config
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.rsp
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Managed.Core.targets
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.AppContext.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Console.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Compression.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.AccessControl.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Claims.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Principal.Windows.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.ValueTuple.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XmlDocument.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe.config
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.rsp
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.xml
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.xml
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.xml
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.xml
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.xml
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.xml
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.xml
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.xml
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csprojAssemblyReference.cache
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CoreCompileInputs.cache
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CopyComplete
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.dll
+F:\aptech\sem3\4. eProject\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.pdb
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll.config
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.pdb
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe.config
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.rsp
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe.config
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.rsp
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Managed.Core.targets
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.AppContext.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Console.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Compression.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.AccessControl.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Claims.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Principal.Windows.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.ValueTuple.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XmlDocument.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe.config
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.rsp
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.xml
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.xml
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.xml
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.xml
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.xml
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.xml
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.xml
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.xml
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CoreCompileInputs.cache
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CopyComplete
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.dll
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.pdb
+E:\DOWN\Eproject 3 ngay 17.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csprojAssemblyReference.cache
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll.config
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.pdb
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe.config
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.rsp
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe.config
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.rsp
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Managed.Core.targets
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.AppContext.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Console.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Compression.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.AccessControl.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Claims.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Principal.Windows.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.ValueTuple.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XmlDocument.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe.config
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.rsp
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CoreCompileInputs.cache
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CopyComplete
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.pdb
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.Mvc.dll
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.xml
+E:\DOWN\Eproject 3 ngay 26.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.Mvc.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll.config
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.pdb
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe.config
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.rsp
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe.config
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.rsp
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Managed.Core.targets
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.AppContext.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Console.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Compression.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.AccessControl.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Claims.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Principal.Windows.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.ValueTuple.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XmlDocument.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe.config
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.rsp
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.Mvc.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.Mvc.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CoreCompileInputs.cache
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CopyComplete
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.dll
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.pdb
+E:\DOWN\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csprojAssemblyReference.cache
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll.config
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\RealtorsPortalSystem.pdb
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.exe.config
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csc.rsp
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.exe.config
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\csi.rsp
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.Managed.Core.targets
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.AppContext.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Console.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Compression.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.AccessControl.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Claims.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Security.Principal.Windows.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.ValueTuple.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XmlDocument.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.exe.config
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\vbc.rsp
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.Mvc.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\EntityFramework.SqlServer.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\PagedList.Mvc.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Razor.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Helpers.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\System.Web.Mvc.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CoreCompileInputs.cache
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CopyComplete
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.dll
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.pdb
+F:\aptech\sem3\4. eProject\Eproject 3 ngay 31.12\RealtosPortalSystem\RealtorsPortalSystem\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csprojAssemblyReference.cache
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll.config
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\RealtorsPortalSystem.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\RealtorsPortalSystem.pdb
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\csc.exe
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\csc.exe.config
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\csc.rsp
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\csi.exe
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\csi.exe.config
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\csi.rsp
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.Managed.Core.targets
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.AppContext.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Collections.Immutable.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Console.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.IO.Compression.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.IO.Pipes.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Reflection.Metadata.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Security.AccessControl.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Security.Claims.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Security.Principal.Windows.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.ValueTuple.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Xml.XmlDocument.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\vbc.exe
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\vbc.exe.config
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\vbc.rsp
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\roslyn\VBCSCompiler.exe.config
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\EntityFramework.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\EntityFramework.SqlServer.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\PagedList.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\PagedList.Mvc.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Helpers.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Mvc.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Razor.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Webpages.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\EntityFramework.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\EntityFramework.SqlServer.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\PagedList.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\PagedList.Mvc.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Razor.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Webpages.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Webpages.Deployment.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Webpages.Razor.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Helpers.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\System.Web.Mvc.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csprojAssemblyReference.cache
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CoreCompileInputs.cache
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.csproj.CopyComplete
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.dll
+F:\aptech\sem3\4. eProject\Group02_RealtorsPortal\Group02_RealtorsPortal\Source Code\RealtorsPortalSystem\obj\Debug\RealtorsPortalSystem.pdb

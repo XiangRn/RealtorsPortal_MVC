@@ -1,0 +1,169 @@
+﻿@model RealtorsPortalSystem.Models.Advertisement
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2></h2>
+<section class="ftco-section goto-here">
+
+    
+        <div class="container">
+            <h4>Details of Advertisement</h4>
+     
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Category.CateName)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Category.CateName)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Mode.ModeName)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Mode.ModeName)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Header)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Header)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Content)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Content)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Price)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Price)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Address)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Address)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Street)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Street)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.District)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.District)
+                    </td>
+                </tr>
+
+                
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Ward)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Ward)
+                    </td>
+                </tr>
+                
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CityProvince)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.CityProvince)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Area)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Area)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Photothumbnail)
+                    </th>
+
+                    <td>
+                        <img src=@Model.Photothumbnail width="100" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DateUp)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.DateUp)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ExpDate)
+                    </th>
+
+                    <td>
+                        @Html.DisplayFor(model => model.ExpDate)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.ActionLink("Back to List", "Index", "Advertisements1")
+                    </th>
+                </tr>
+
+            </table>
+
+                
+
+</div>
+       
+</section>

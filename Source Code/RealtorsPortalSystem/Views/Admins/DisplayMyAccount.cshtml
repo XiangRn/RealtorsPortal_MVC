@@ -1,0 +1,38 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.Admin>
+
+@{
+    ViewBag.Title = "DisplayMyAccount";
+    Layout = "~/Views/MainLayout/_MainLayoutAdmin.cshtml";
+}
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AdminAcount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AdminPass)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>
+                @item.AdminAcount
+            </th>
+            <td>
+                ******
+            </td>
+            <td>
+                @Html.ActionLink("Edit Password", "EditPassword", new { id = item.AdminAcount })
+
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/MainLayout/_MainLayout_noSearch.cshtml";
+}
+
+<link href="~/css/formSignInSignUp/main.css" rel="stylesheet" />
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+        <h2 style="color:red">@ViewBag.Msg</h2>
+    </div>
+    <div class="wrap-login100" style="margin:5px 500px;">
+
+
+        <div class="contact100-form validate-form">
+            <span class="login100-form-title p-b-34 p-t-27" style="color:hotpink">
+                Log In
+            </span>
+
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Account</span>
+                <input class="input100" type="text" name="account">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                <span class="label-input100">Password</span>
+                <input class="input100" type="password" name="password">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="container-login100-form-btn">
+                <button class="login100-form-btn" type="submit">
+                    Login
+                </button>
+
+            </div>
+
+        </div>
+        <br />
+        <br />
+        <div>
+            @Html.ActionLink("Back to Home", "Index", "Home")
+        </div>
+    </div>
+}
+
+
+
+@*@section Scripts {*@
+    
+   
+@*}*@

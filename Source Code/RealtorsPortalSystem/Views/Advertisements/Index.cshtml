@@ -1,0 +1,242 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.Advertisement>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RealtorsPortal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    @*<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">*@
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">*@
+
+    @*<link href="~/css/font_awesome_luot/font-awesome.min.css" rel="stylesheet" />*@
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">*@
+
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>*@
+    <script src="~/js/js_luot/jsluot.js"></script>
+
+    @*<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>*@
+    <script src="~/js/js_luot/bootstrapluot.js"></script>
+
+
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" href="~/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="~/css/aos.css">
+
+    <link rel="stylesheet" href="~/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="~/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="~/css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="~/css/flaticon.css">
+    <link rel="stylesheet" href="~/css/icomoon.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <link rel="stylesheet" href="~/css/menudropdown.css">
+    <link rel="stylesheet" href="~/css/moreoption.css">
+    <link rel="stylesheet" href="~/css/carousel.css">
+    <link rel="stylesheet" href="~/css/select2.min.css">
+    <link rel="stylesheet" href="~/css/selectoptionwidth.css">
+    <style>
+        .inlineinput div {
+            display: inline;
+        }
+
+        .carousel {
+            margin: 50px auto;
+            padding: 0 70px;
+        }
+
+
+
+
+            .carousel .carousel-control {
+                height: 44px;
+                width: 40px;
+                background: #7ac400;
+                margin: auto 0;
+                border-radius: 4px;
+                opacity: 0.8;
+            }
+
+                .carousel .carousel-control:hover {
+                    background: #78bf00;
+                    opacity: 1;
+                }
+
+                .carousel .carousel-control i {
+                    font-size: 36px;
+                    position: absolute;
+                    top: 50%;
+                    display: inline-block;
+                    margin: -19px 0 0 0;
+                    z-index: 5;
+                    left: 0;
+                    right: 0;
+                    color: #fff;
+                    text-shadow: none;
+                    font-weight: bold;
+                }
+
+
+            .carousel .carousel-indicators {
+                bottom: -50px;
+            }
+
+        .carousel-indicators li, .carousel-indicators li.active {
+            width: 10px;
+            height: 10px;
+            margin: 4px;
+            border-radius: 50%;
+            border: none;
+        }
+
+        .carousel-indicators li {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+            .carousel-indicators li.active {
+                background: rgba(0, 0, 0, 0.6);
+            }
+    </style>
+</head>
+<body>
+    <section class="ftco-section goto-here">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+                    <span class="subheading">What we offer</span>
+                    <h2 class="mb-2">Lasted News</h2>
+                </div>
+            </div>
+
+            <div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Featured <b>Products</b></h2>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                            Carousel indicators
+                            <ol class="carousel-indicators">
+                                @for (int i = 0; i <= Model.Count() / 3; i++)
+                                {
+                                    <li data-target="#myCarousel" data-slide-to="@i" class="@if(i==0){<text>active</text>}"></li>
+
+                                }
+
+
+                            </ol>
+                            Wrapper for carousel items
+                            <div class="carousel-inner">
+
+
+                                @for (int i = 0; i <= Model.Count() / 3; i++)
+                                {
+
+
+                                    <div class="item carousel-item @if(i==0){<text>active</text>} ">
+                                        <div class="row">
+
+                                            @foreach (var item in Model.Skip(i * 3).Take(3))
+                                            {
+
+                                                <div class="col-md-4">
+                                                    <div class="property-wrap ftco-animate">
+                                                        <a href="#" class="img" style="background-image: url(../images/@item.Photothumbnail);"></a>
+                                                        <div class="text">
+                                                            <p class="price"><span class="old-price">800,000</span><span class="orig-price">$3,050<small>/mo</small></span></p>
+                                                            <ul class="property_list">
+                                                                <li><span class="flaticon-bed"></span>3</li>
+                                                                <li><span class="flaticon-bathtub"></span>2</li>
+                                                                <li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
+                                                            </ul>
+                                                            <h3><a href="#">@item.District</a></h3>
+                                                            <span class="location">Oakland</span>
+                                                            <a href="#" class="d-flex align-items-center justify-content-center btn-custom">
+                                                                <span class="ion-ios-link"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            }
+
+
+
+                                        </div>
+                                    </div>
+
+                                    @*else
+                                        {
+
+                                            <div class="item carousel-item ">
+                                                <div class="row">
+                                                    @foreach (var item in Model.Skip(3).Take(3))
+                                                    {
+
+                                                            <div class="col-md-4">
+                                                                <div class="property-wrap ftco-animate">
+                                                                    <a href="#" class="img" style="background-image: url(../images/@item.Photothumbnail);"></a>
+                                                                    <div class="text">
+                                                                        <p class="price"><span class="old-price">800,000</span><span class="orig-price">$3,050<small>/mo</small></span></p>
+                                                                        <ul class="property_list">
+                                                                            <li><span class="flaticon-bed"></span>3</li>
+                                                                            <li><span class="flaticon-bathtub"></span>2</li>
+                                                                            <li><span class="flaticon-floor-plan"></span>1,878 sqft</li>
+                                                                        </ul>
+                                                                        <h3><a href="#">The Blue Sky Home</a></h3>
+                                                                        <span class="location">Oakland</span>
+                                                                        <a href="#" class="d-flex align-items-center justify-content-center btn-custom">
+                                                                            <span class="ion-ios-link"></span>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                    }
+
+
+
+                                                </div>
+                                            </div>
+                                        }*@
+                                }
+
+
+
+                                Carousel controls
+                                @*<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                        <i class="fa fa-angle-left"></i>
+                                    </a>
+                                    <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>*@
+
+                                <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+                                <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+</body>
+</html>

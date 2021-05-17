@@ -1,0 +1,72 @@
+﻿@model IEnumerable<RealtorsPortalSystem.Models.Agent>
+
+@{
+    ViewBag.Title = "Agentacount";
+    Layout = "~/Views/MainLayout/_MainLayoutAdmin.cshtml";
+}
+
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.AgentName)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.AgentAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AgentPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AgentEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TaxCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AgentActive)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.AgentName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AgentAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AgentPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AgentEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaxCode)
+            </td>
+
+
+            @if (item.AgentActive == false)
+            {
+                <td>
+                    @Html.ActionLink("Deactive", "AgentActice", new { id = item.AgentId })
+                </td>
+            }
+            else
+            {
+                <td>
+                    @Html.ActionLink("Active", "AgentActice", new { id = item.AgentId })
+                </td>
+
+            }
+
+
+        </tr>
+    }
+
+</table>

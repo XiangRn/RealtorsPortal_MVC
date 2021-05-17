@@ -1,0 +1,41 @@
+﻿@model RealtorsPortalSystem.Models.PrivateSeller
+@{
+    ViewBag.Title = "LoginSeller";
+}
+
+<h2>LoginSeller</h2>
+
+@using (Html.BeginForm("LoginSeller", "Home", FormMethod.Post))
+{
+    <div>
+        <div>
+            @Html.LabelFor(m => m.SeLLAcount)
+            <input type="text" name="sellname" placeholder="Nhap sell name" />  @*ben controller la kieu string ko phai kieu doi tuong*@
+            @Html.ValidationMessageFor(m => m.SeLLAcount)
+        </div>
+
+        <div>
+            @Html.LabelFor(m => m.SellPassword)
+            <input type="password" name="sellpwd" placeholder="Nhap sell pass" />
+        </div>
+
+        <br />
+        <div>
+            <input type="submit" value="Sign in" class="btn-primary" />
+        </div>
+    </div>
+
+    <div>
+        <h3 style="color:red">@ViewBag.Msg</h3>
+
+       
+
+    <h3 style="color:red">
+        @TempData["Msg1"] @for (int i = 1; i <= 100; i++)
+            {
+                @TempData[i.ToString()];
+            }@TempData["Msg2"]
+        </h3>
+    </div>
+
+}

@@ -1,0 +1,119 @@
+﻿@model RealtorsPortalSystem.Models.Advertisement
+@{
+    ViewBag.Title = "EditPhotoDetail";
+}
+
+
+
+<section class="ftco-section goto-here">
+    <div class="container">
+        <h2>EditPhotoDetail</h2>
+
+        @using (Html.BeginForm("EditPhotoDetail", "Advertisements1", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <legend>Edit Support Request</legend>
+
+                @Html.HiddenFor(model => model.AdvId)
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.Header)
+                </div>
+                <div class="editor-field">
+                    @Html.DisplayFor(model => model.Header)
+
+                </div>
+
+                <div class="editor-label">
+                    <label>Files:</label>
+                </div>
+                <div class="editor-field">
+                    <input type="file" name="file" multiple="multiple" />
+
+                    <ul class="attachment">
+                        @foreach (var item in Model.PhotoDetails)
+                        {
+                            <li>
+                                <a class="title"><img src=@item.Image width="100" /></a>
+                                @*<a>@Html.ActionLink("X", "DeleteFile", new { id = item.Guidimage }, new { onclick = "return confirm ('Are you sure want to delete')" })</a>*@
+                                <a href="javascript:void(0);" data-id="@item.Guidimage" class="deleteItem">Delete</a>
+                            </li>
+
+                        }
+                    </ul>
+                </div>
+                <p>
+                    <input type="submit" value="Save" />
+                </p>
+            </fieldset>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </div>
+</section>
+
+
+@section Scripts {
+    @*<script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>*@
+
+    <script>
+        $('.deleteItem').click(function (e) {
+            e.preventDefault();
+            var $ctrl = $(this);
+            if (confirm('Do you really want to delete this file?')) {
+                $.ajax({
+                    url: '@Url.Action("DeleteFile")',
+                    type: 'POST',
+                    data: { id: $(this).data('id') }
+                }).done(function (data) {
+                    
+                        $ctrl.closest('li').remove();
+                    
+                   
+                }).fail(function () {
+                    alert("There is something wrong. Please try again.");
+                })
+
+            }
+        });
+    </script>
+
+}
+
+
+
+@*@section Scripts {
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+        <script>
+            $('.deleteItem').click(function (e) {
+                e.preventDefault();
+                var $ctrl = $(this);
+                if (confirm('Do you really want to delete this file?')) {
+                    $.ajax({
+                        url: '@Url.Action("DeleteFile")',
+                        type: 'POST',
+                        data: { id: $(this).data('id') }
+                    }).done(function (data) {
+                        if (data.Result == "OK") {
+                            $ctrl.closest('li').remove();
+                        }
+                        else if (data.Result.Message) {
+                            alert(data.Result.Message);
+                        }
+                    }).fail(function () {
+                        alert("There is something wrong. Please try again.");
+                    })
+
+                }
+            });
+        </script>
+
+    }*@

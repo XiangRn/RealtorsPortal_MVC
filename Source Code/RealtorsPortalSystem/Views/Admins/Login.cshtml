@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/MainLayout/_MainLayoutLogin.cshtml";
+}
+
+<link href="~/css/formSignInSignUp/main.css" rel="stylesheet" />
+<div class="container" style="margin:-80px 600px">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+
+        <div>
+            <h2 style="color:red">@ViewBag.Msg</h2>
+        </div>
+        <div class="wrap-login100">
+
+
+            <div class="contact100-form validate-form">
+                <span class="login100-form-title p-b-34 p-t-27">
+                    Log In For Admin
+                </span>
+
+                <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                    <span class="label-input100">Account</span>
+                    <input class="input100" type="text" name="uname">
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="wrap-input100 rs1-wrap-input100 validate-input">
+                    <span class="label-input100">Password</span>
+                    <input class="input100" type="password" name="pwd">
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn">
+                        Login
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    }
+</div>

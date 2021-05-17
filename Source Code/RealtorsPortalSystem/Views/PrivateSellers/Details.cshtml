@@ -1,0 +1,69 @@
+﻿@model RealtorsPortalSystem.Models.PrivateSeller
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/MainLayout/_MainLayout_noSearch.cshtml";
+}
+
+    <section class="ftco-section goto-here">
+        <h2>User's Profile</h2>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.SeLLAcount)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.SeLLAcount)
+                </td>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.SellFullname)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.SellFullname)
+                </td>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.SellGender)
+                </th>
+                <td>
+                    @(Model.SellGender == true ? "Male" : "Female")
+                </td>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.SellGender)
+                </th>
+                <td>
+                    @(Model.SellGender == true ? "Male" : "Female")
+                </td>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.SellAddress)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.SellAddress)
+                </td>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.SellPhone)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.SellPhone)
+                </td>
+                <th>
+                    @Html.DisplayNameFor(model => model.SellEmail)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.SellEmail)
+                </td>
+
+            </tr>
+        </table>
+
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.SeLLId }) |
+            @Html.ActionLink("Back to Home", "Index", "Home")
+        </p>
+    </section>
+       
+            
